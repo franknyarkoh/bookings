@@ -5,10 +5,12 @@ This is Erpnext Module application
 #### License
 
 MIT.
+
+### Details
 This module includes rooms management, seasonal rates management, house keeping, selling of booking extras.
 Please note that this application is at the early stages. You can clone and study the app so that you can add code to the project if you are interested. More details soon
 
-Features
+#### Features
 1. Group booking with individual checkout
 2. Seasonal rates
 3. Various rooms configurations supported

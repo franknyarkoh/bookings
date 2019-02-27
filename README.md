@@ -19,3 +19,12 @@ Rooms can be assigned to a team of employees.
 Daily house keeping report is also supported
 5. Integration with the CRM module
 6. Integration with Account module coming soon.
+
+## How to Install
+1. Before going ahead to install this app, please install ERPNext first
+2. Open console and login with with sudo priviledges
+3. Cd into frappe-bench directory
+4. Execute "bench get-app bookings https://github.com/franknyarkoh/bookings
+5. Please wait for the script to run and execute "bench --site [your erpnext site] install-app bookings
+6. Restart Erpnext with the command "bench restart"
+Congratulations.

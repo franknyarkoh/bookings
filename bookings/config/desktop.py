@@ -6,9 +6,11 @@ def get_data():
 	return [
 		{
 			"module_name": "Room Management",
+			"category": "Modules",
 			"color": "pink",
-			"icon": "hotels",
+			"icon": "octicon octicon-home",
 			"type": "module",
-			"label": _("Room Management")
+			"label": _("Room Management"),
+			"onboard_present": 1
 		}
 	]

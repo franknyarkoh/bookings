@@ -4,15 +4,19 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"label": _("Documents"),
+			"label": _("Room Management"),
 			"items": [
 				{
 					"type": "doctype",
 					"name": "House Keeping",
+					"label": _("House Keeping"),
+					"onboard": 1,
 				},
 				{
 					"type": "doctype",
 					"name": "Room Order"
+					"label": _("Room Order"),
+					"onboard": 1,
 				},
 				
 			]
@@ -23,47 +27,73 @@ def get_data():
 
 				{
 					"type": "doctype",
-					"name": "Extras"
+					"name": "Extras",
+					"label": _("Extras"),
+					"onboard": 1,
+					
 				},
 				{
 					"type": "doctype",
-					"name": "Floor"
+					"name": "Floor",
+					"label": _("Floor"),
+					"onboard": 1,
 				},
 				{
 					"type": "doctype",
-					"name": "Rates"
+					"name": "Rates",
+					"label": _("Rates"),
+					"onboard": 1,
 				},
 				{
 					"type": "doctype",
-					"name": "Rooms"
+					"name": "Rooms",
+					"label": _("Rooms"),
+					"onboard": 1,
 				},
 				{
 					"type": "doctype",
-					"name": "Seasons"
+					"name": "Seasons",
+					"label": _("Seasons"),
+					"onboard": 1,
 				},
 				{
 					"type": "doctype",
-					"name": "Block"
+					"name": "Block",
+					"label": _("Block"),
+					"onboard": 1,
 				},
 				{
 					"type": "doctype",
-					"name": "Brand Name"
+					"name": "Brand Name",
+					"label": _("Brand Name"),
+					"onboard": 1,
 				},
 				{
 					"type": "doctype",
-					"name": "Locations"
+					"name": "Locations",
+					"label": _("Room Order"),
 				},
 				{
 					"type": "doctype",
-					"name": "Property Type"
+					"name": "Property Type",
+					"label": _("Room Order"),
 				},
 				{
 					"type": "doctype",
-					"name": "Room Type"
+					"name": "Room Type",
+					"label": _("Room Order"),
 				},
 				{
 					"type": "doctype",
-					"name": "Teams"
+					"name": "Teams",
+					"label": _("Teams"),
+					"onboard": 1,
+				},
+				{
+				"type": "doctype",
+					"name": "Vehicle Type",
+					"label": _("Vehicle Type"),
+					"onboard": 1,	
 				}
 			]
 		}
